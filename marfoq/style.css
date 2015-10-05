@@ -1,0 +1,78 @@
+header{
+	position:fixed; top:0px;
+	width:100%;
+	z-index:9;
+}
+
+h1{
+	text-align:center;
+	font-size:25px;
+	margin:10px;
+}
+
+nav{
+	font-size:12px;
+	overflow:hidden;
+	background:#FAFAFA;
+	border-radius: 5px;
+	padding-left:5px;
+	box-shadow: 0px 0px 10px #D4D4D4;
+}
+
+nav h2{
+	margin-top:10px;
+	margin-bottom:8px;
+	font-size:12px;
+	display:inline;
+}
+
+section{
+	margin-top:30px;
+}
+
+.grad{
+	position:absolute;
+	padding:0;
+	left:0px;
+	font-size:10px;
+	width:100%;
+	border-bottom: 1px dashed #E1E4EA;
+}
+
+h3{
+	font-size:15px;
+	margin:10px;
+}
+
+.f_homme{
+	background: #c8e4f8;
+	color: #000;
+	border: 1px solid #94a0b4;
+}
+.f_femme{
+	background: #F8C8D1;
+	color: #000;
+	border: 1px solid #94a0b4;
+}
+
+.fiche{
+padding:10px;
+display:none;
+float:left;
+position:absolute;
+z-index:9;
+}
+
+.fiche fieldset{
+text-align:left;
+margin:5px;
+padding:5px;
+
+}
+
+.cible{
+	cursor:pointer;
+}
+.exit{
+	float:right;
+	margin:2px;
